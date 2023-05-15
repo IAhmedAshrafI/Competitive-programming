@@ -1,0 +1,32 @@
+https://leetcode.com/problems/squares-of-a-sorted-array/
+/*
+class Solution {
+public:
+    vector<int> sortedSquares(vector<int>& nums) {
+        for (int i=0; i<nums.size(); i++){
+            nums[i] = abs(nums[i] * nums[i]);
+        }
+        sort(nums.begin(), nums.end());
+        return nums;
+    }
+};
+*/
+//***************************************************
+https://leetcode.com/problems/xor-operation-in-an-array/
+/*
+class Solution {
+public:
+    int xorOperation(int n, int start) {
+        int nums[n];
+        for (int i=0 ; i<n; i++){
+            nums[i] = start + 2 * i;
+        }
+        int ans = nums[0];
+        for (int i=1; i<n; i++){
+            ans ^= nums[i];
+        }
+        return ans;
+    }
+};
+*/
+//****************************************************
